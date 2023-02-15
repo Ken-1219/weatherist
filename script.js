@@ -75,7 +75,7 @@ function weatherReport(data) {
 
 function hourForecast(forecast) {
   document.querySelector(".templist").innerHTML = "";
-  for (let i = 0; i <6; i++) {
+  for (let i = 0; i <5; i++) {
     var date = new Date(forecast.list[i].dt * 1000);
     console.log(
       date.toLocaleTimeString(undefined, "Asia/Kolkata").replace(":00", "")
