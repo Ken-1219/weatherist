@@ -329,12 +329,14 @@ main {
     background: #607EAA;
     height: 300px;
     border-radius: 5px;
-    
+
     /* Responsive adjustments */
     margin-bottom: 30px;
 }
 
+
 @media screen and (max-width: 768px) {
+
     .divider1,
     .divider2 {
         height: 200px;
@@ -343,6 +345,7 @@ main {
 }
 
 @media screen and (max-width: 576px) {
+
     .divider1,
     .divider2 {
         height: 150px;
@@ -351,14 +354,49 @@ main {
     }
 }
 
+.divider1 {
+    height: 300px;
+    width: 70%;
+    margin: 0 auto;
+
+    /* Responsive adjustments */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .divider2 {
     height: 5px;
     width: 40%;
     margin: 0 auto;
-    
+
     /* Responsive adjustments */
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .divider1 {
+        height: 5px;
+        width: 60%;
+        margin: 0 auto;
+
+        /* Responsive adjustments */
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .divider1 {
+        height: 5x;
+        width: 60%;
+        margin: 0 auto;
+
+        /* Responsive adjustments */
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }
 
 .time,
